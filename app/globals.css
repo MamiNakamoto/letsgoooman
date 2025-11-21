@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #0a0a0a;
+  --color-foreground: #ededed;
+  
+  --color-gold-500: #d4af37;
+  --color-gold-600: #c5a028;
+  --color-gold-400: #e5c048;
+  
+  --color-obsidian: #050505;
+  --color-charcoal: #121212;
+  --color-glass: rgba(255, 255, 255, 0.05);
+}
+
+:root {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), sans-serif;
+}
